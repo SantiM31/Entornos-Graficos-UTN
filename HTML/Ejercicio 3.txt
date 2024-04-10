@@ -1,0 +1,212 @@
+a)
+<a href="http://www.google.com.ar">Click aquí para ir a Google</a>
+este es un link que te dirige a la pagina de Google.
+
+<a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+este es un link que te dirige a la pagina de Google pero abriendola en una nueva ventana.
+
+<a href="http://www.google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+este es un link que te dirige a Google y ademas tiene como informacion el tipo de documento, el lenguaje, caracteres y el tipo de enlace.
+
+<a href="#">Click aquí para ir a Google</a>
+esto hace recargar la pagina actual.
+
+<a href="#arriba">Click aquí para volver arriba</a>
+esto nos dirige a la seccion de la pagina que tenga "arriba" como identificador.
+
+<a name="arriba" id="arriba"></a>
+este es un elemento ancla  que tiene dos identificadores, pero no produce ningun efecto ya que no tiene asignado un hipervinculo ni tampoco un texto donde podamos clicar.
+
+
+
+b)
+<p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
+esto es un elemento parrafo que nos muestra una imagen y un link que nos dirige a Google.
+
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+esto es un elemento parrafo con una imagen que contiene el vinculo, entonces hay que clicar en la imagen para ir a la pagina de Google.
+
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p>
+en este caso el link se encuentra tanto en la imagen como en el texto.
+
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a href="http://www.google.com.ar">Click aquí</a></p>
+en este caso la imagen y el texto contienen el mismo link pero estan separados uno del otro.
+
+
+
+c)
+<ul>
+  <li>xxx</li>
+  <li>yyy</li>           es una lista de 3 objetos.
+  <li>zzz</li>
+</ul>
+
+<ol>
+   <li>xxx</li>
+   <li>yyy</li>          es una lista ordenada de 3 objetos.
+   <li>zzz</li>
+</ol>
+
+<ol>
+   <li>xxx</li>
+</ol>
+<ol>
+   <li value="2">yyy</li>        es una lista igual al anterior pero con una semantica distinta.
+</ol>
+<ol>
+   <li value="3">zzz</li>
+</ol>
+
+<blockquote>
+   <p>1. xxx<br />
+   2. yyy<br />           es una lista donde se utiliza el salto de linea para que los objetos no esten uno al lado del otro,
+   3. zzz</p>             ya que utiliza <blockuote>
+</blockquote>
+
+
+
+d)
+<table border="1" width="300">
+    <tr>
+        <th>Columna 1</th>
+        <th>Columna 2</th>
+    </tr>
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+    </tr>
+    <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+</table>
+
+es una tabla con 3 filas, 2 columnas, de un ancho de 300 y un borde.
+
+
+
+<table border="1" width="300">
+    <tr>
+        <td>
+            <div align="center">
+                <strong>Columna1</strong>
+            </div>
+        </td>
+        <td>
+            <div align="center">
+                <strong>Columna2</strong>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+    </tr>
+    <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+</table>
+
+es similar al anterior, solo cambia que los textos de las columnas estan en "negrita2 ya que utiliza <strong>
+
+
+
+e)
+<table width="200">
+    <caption>Título</caption>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+
+es una tabla de 2 filas y 3 columnas con un titilo que muestran en cada celda un color.
+
+
+<table width="200">
+<tr>
+    <td colspan="3">
+        <div align="center">Título</div>
+    </td>
+</tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+
+es una tabla similar al anterior, con la diferencia de que el titulo esta puesto en una fila mas, en una celda de un ancho de 3 columnas hecha con colspan.
+
+
+
+f)
+<table width="200">
+    <tr>
+        <td colspan="3">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+
+es la misma tabla que el pnto E, pero en este caso junta dos filas en la primer columna con rowspan.
+
+
+<table width="200">
+    <tr>
+        <td colspan="3">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+
+es la misma tabla que el pnto E, pero en este caso junta dos columnas en la primer fila con colspan.
+
+
+g)
+La diferencia entre las dos tablas esta en el borde, en la segunda el borde se unifica mediante cellpadding y cellspacing.
+
+h)
+Son 3 formularios distintos, el primero esta cargado con los valores de "value", el segundo no tiene valores y no tiene fielset, y el tercero tiene el atributo action,
+el cual define donde se envían los datos que el formulario ha recopilado cuando se validan.
+
+i)
+Son dos botones, el primero tiene una imagen y texto, y el segundo tiene solo el texto.
+
+j)
+En el primero nos muestras dos botones, cada uno esta identificado con el mismo nombre, por ende si seleccionamos uno se selecciona el otro.
+En el segundo tambien hay dos botones pero podemos seleccionar cada uno individualmente ya que estasn identificados con distintos nombres.
+
+k)
+La primer lista es desplegable, en la segunda hay que deslizar para ver todas las opciones.
+

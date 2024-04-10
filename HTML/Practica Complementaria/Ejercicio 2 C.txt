@@ -1,0 +1,31 @@
+A)
+HTML5 soporta:
+   - Video:
+	MP4 (MPEG-4 Part 14)
+	WebM
+	Ogg Theora
+
+   - Audio:
+	MP3
+	AAC (Advanced Audio Coding)
+	Ogg Vorbis
+	WAV (Waveform Audio File Format)
+
+  - Imágenes:
+	JPEG/JPG (Joint Photographic Experts Group)
+	PNG (Portable Network Graphics)
+	GIF (Graphics Interchange Format)
+	SVG (Scalable Vector Graphics)
+
+B)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 Comp</title>
+</head>
+<body>
+    <audio src="https://html5tutorial.info/media/vincent.mp3"controls></audio>
+</body>
+</html>

@@ -1,0 +1,46 @@
+1)
+HTML (Hypertext Markup Language) es un lenguaje de marcado (emplean etiquetas) que se utiliza para la elaboración de páginas web. Un estándar a cargo del World Wide Web Consortium (W3C),
+una organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web en lo referente a su escritura e interpretación. Se considera el lenguaje web más importante. 
+Su primera versión fue HTML 1.0 creada en 1991 por Tim Berners-Lee.
+
+Estas fueron las distintas versiones de HTML:
+   - HTML 1.0 (1991)
+   - HTML 2.0 (1995)
+   - HTML 3.2 (1997)
+   - HTML 4.01 (1999)
+   - XHTML 1.0 (2000)
+   - HTML5 (2014) siendo esta la última versión que se considera en constante evolución.
+
+2)
+El W3C recomienda:
+   - Separar estructuras y presentacion:
+	Se reduce el coste de servir a un amplio espectro de plataformas, medios, etc. y se facilitan las revisiones del documento. 
+   - Considerar la accesibilidad universal a la red:
+	Los autores deberían considerar cómo pueden representarse sus documentos en diferentes plataformas: navegadores basados en voz, lectores braille, etc.
+   - Ayudar a los agentes de usuario con la representacion incremental:
+	Los autores pueden ayudar a los agentes de usuario a representar los documentos más rápidamente.
+
+3)
+   - Un elemento o atributo se considera desaprobado cuando su uso ya no se recomienda según las especificaciones actuales definidas por el W3C.
+   - Los atributos o elementos que se consideran obsoletos son aquellos que ya no son compatibles con las versiones más recientes de las especificaciones de HTML.
+
+4)
+El DTD (Document Type Definition) es una declaración que especifica la estructura y las reglas de marcado que un documento HTML debe seguir para ser considerado valido según la versión
+de HTML que se está utilizando. El DTD se coloca al comienzo del documento HTML, y se utiliza para indicar al navegador que tipo de documento se está utilizando y como interpretarlo.
+
+DTDs contemplados en la especificación de HTML 4.01:
+   - Strict DTD: para documentos de HTML que siguen reglas estrictas de HTML 4.01.
+   - Transitional DTD: para documentos que incluyen elementos y atributos obsoletos, presentacionales o de diseño que se están eliminando en versiones futuras de HTML.
+   - Frameset DTD: para documentos que contienen marcos (frames).
+
+5)
+El HTML permite a los autores especificar metadatos, es información adicional que se incluye dentro de la estructura de un documento de HTML, para proporcionar detalles sobre el
+documento. Estos no se muestran directamente en la página web, pero son importantes para los motores de búsqueda, los navegadores web y los programas de indexación.
+
+La especificación de Metadatos implica dos pasos: 
+
+   - Declaración de una propiedad y de un valor para esta propiedad. Esto puede hacerse de dos maneras:
+	- Desde dentro de un documento, mediante el elemento META.
+	- Desde fuera de un documento, vinculando los metadatos mediante el elemento link.
+
+   - Referencia a un perfil en el que se definen la propiedad y sus valores legales. Para designar un perfil, se usa el atributo profile del elemento HEAD.

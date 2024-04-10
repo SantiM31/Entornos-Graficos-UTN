@@ -1,0 +1,11 @@
+1)
+Ventajas de usar HTML5:
+   - Compatibilidad multiplataforma: permite crear sitios web y aplicaciones web en una amplia variedad de dispositivos, desde computadoras de escritorio hasta dispositivos móviles.
+   - Mayor semántica: HTML5 introduce nuevas etiquetas semánticas que ayudan a los desarrolladores a estructurar el contenido de manera más significativa y comprensible.
+   - Mejoras en multimedia: tiene soporte integrado para elementos multimedia como audio y video sin la necesidad de complementos externos como Flash.
+   - Compatibilidad con aplicaciones web avanzadas: incluye capacidades de almacenamiento local, soporte para geolocalización, API de arrastrar y soltar, entre otros.
+   - Mejora en formularios: incluye nuevos tipos de entrada para formularios, como campos de fecha, hora, número, teléfono, correo electrónico, entre otros.
+   - Mejoras en rendimiento: está diseñado para mejorar el rendimiento general de las aplicaciones web.
+   - Compatibilidad con tecnologías modernas: HTML5 es compatible con tecnologías web modernas como CSS3 para estilos avanzados, JavaScript para interactividad y manipulación del DOM,
+	 SVG para gráficos escalables y WebGL para gráficos 3D en tiempo real.
+   - Facilidad de desarrollo: HTML5 simplifica el desarrollo web al proporcionar una sintaxis más limpia y estructurada, lo que facilita la escritura y mantenimiento del código.

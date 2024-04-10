@@ -1,0 +1,77 @@
+a)
+<!-- Código controlado el día 12/08/2009 -->
+
+Este segmento es un comentario, se puede poner en cualquier parte del codigo, no provoca ningun efecto en el funcionamiento y no es obligatorio utilizarlo.
+Se pueden utilizar para agregar cualquier tipo de informacion relevante para quienes necesiten realizar alguna modificación en el codigo.
+
+b)
+<div id="bloque1">Contenido del bloque1</div>
+
+El elemento <div> sirve para agrupar contenido en un bloque, no es obligatorio hacerlo de esta manera, pero si es recomendable utilizarlos en codigos muy extensos.
+El elemento id se puede utilizar para identificar este objeto y, por ejemplo, posteriormente darle un estilo con CSS. Se coloca dentro de las etiquetas y no es obligatorio su uso.
+
+c)
+<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+
+<img/>: se utiliza para colocar una imagen, se coloca donde se desee dentro del <body>. No es de uso obligatorio.
+src: indica la imagen que queremos mostrar, se coloca la ruta en la cual esta situada entre comillas y en este caso no está mostrando ninguna imagen.
+alt: nos va a mostrar un texto alternativo en el caso que la imagen no se pueda mostrarse.
+id: es un identificador para la imagen. No es obligatorio.
+name: es otro identificador para la imagen. No es obligatorio.
+widht: es el ancho de la imagen, en este caso tiene 32 unidades.Si no se coloca, tomará el ancho original de la imagen. No es obligatorio.
+height: es la altura de la imagen, en este caso es de 32 unidades. Si no se coloca, tomará la altura original de la imagen. No es obligatorio.
+longdesc: con esto podemos darle una descripcion a la imagen. No es obligatorio.
+
+d)
+<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+<meta/>: es una etiqueta que se usa para añadir metadatos, se coloca dentro de <head>. No es obligatorio.
+lang: nos indica el lenguaje de la pagina, en este caso "es" nos indica que sera en español. No es obligatorio.
+name: es un identificador del metadato con nombre "keywords". No es obligatorio.
+content: indica el contenido del metadato, "casa, compra, venta, alquiler" y "16-Sep-2019 7:49 PM". No es obligatorio.
+http-equiv. es una direccion para el interprete de HTML. No es obligatorio.
+
+e)
+<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML </a>
+
+<a></a>: se utiliza para colocar un hipervinculo, se coloca dentro de <body> y su uso no es obligatorio.
+href: en este caso es necesario para poder colocar dentro la url que necesita dirigir.
+type: nos indica el tipo de contenido de la url. No es obligatorio.
+hreflang: indica el idioma del conenido de la url. En este caso sera en español ("es"). No es obligatorio.
+charset: define como se representan y codifican los caracteres en un documento de texto "utf-8". No es obligatorio.
+rel: indica la relacion entre la pagina actual y la url. No es obligatorio.
+
+f)
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+	<caption align="top"> Título </caption>
+	<tr>
+		<th scope="col">&nbsp;</th>
+		<th scope="col">A</th>
+		<th scope="col">B</th>
+		<th scope="col">C</th>
+	</tr>
+	<tr>
+		<th scope="row">1º</th>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<th scope="row">2º</th>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+
+<table></table>: se utiliza para añadir una tabla, se coloca en el <body> y es opcional.
+width: es un atributo de la tabla que le da el ancho a la misma.
+summary: se utiliza para dar una descripción del contenido o tema de la tabla.
+<caption></caption>: con esto le damos un titulo a la tabla y se coloca dentro de <table>.
+align: con este atributo modificamos la posicion del titulo. No es obligatorio.
+<tr></tr>: agrega una fila de la tabla.
+<th></th>: se utiliza para agregar el encabezado de la tabla, se coloca dentro de <tr>.
+<td></td>: son las celdas de datos de la tabla, se coloca dentro de <tr>.
+scope: indica la relacion entre las filas y columnas, "col" para indicar las columnas y "row" para las filas.
+
