@@ -1,0 +1,30 @@
+p#normal {
+font-family: arial,helvetica;
+font-size: 11px;
+font-weight: bold;
+}
+
+   - Esta seccion modifica la tipografia (arial o helvetica) que utiliza el elemento con la id "normal", su tamaño y tipo (bold).
+
+
+*#destacado {
+border-style: solid;
+border-color: blue;
+border-width: 2px;
+}
+
+   - Esta seccion modifica el borde para los elementos de id "destacado", su estilo, color y grosor.
+
+
+#distinto {
+background-color: #9EC7EB;
+color: red;
+}
+
+   - Esta seccion modifica todos los elementos con id "distinto", le pone un fondo de color celeste y el color de la letra en rojo.
+
+
+<p id="normal">Este es un párrafo</p>
+<p id="destacado">Este es otro párrafo</p>
+<table id="destacado"><tr><td>Esta es una tabla</td></tr></table>
+<p id="distinto">Este es el último párrafo</p>

@@ -1,0 +1,71 @@
+1)
+Cascade Style Sheet (CSS) traducido significa "Hojas de Estilo en Cascada".
+Es un lenguaje utilizado para describir la presentación de documentos HTML y XML, el diseño, la disposición y la apariencia de elementos.
+
+2)
+Una regla de CSS consta de dos partes: el selector y el bloque de declaracion.
+- Selector: Es la parte que indica a qué elementos HTML se aplicarán las declaraciones de estilo:
+     - Selector de elemento: p (aplica el estilo a todos los parrafos)
+     - Selector de clase: .clase (aplica el estilo a todos los elementos con la clase "clase")
+     - Selector de ID: #id (aplicará el estilo al elemento con el ID "id")
+- Bloque de declaración: El bloque de declaración contiene las propiedades de estilo y sus valores, separados por punto y coma (;).
+
+3)
+Existen tres formas principales de dar estilo a un documento:
+   - CSS en línea: Este método implica agregar estilos directamente en las etiquetas HTML utilizando el atributo "style".
+   - CSS interno: Implica colocar las reglas de estilo dentro de la etiqueta <style> en la sección <head> del documento HTML.
+   - CSS externo: Consiste en crear un archivo separado con extensión .css que contenga todas las reglas de estilo, y luego vincular este archivo CSS externo al documento HTML
+     utilizando la etiqueta <link> en la sección <head>.
+
+4)
+- Selector de tipo:
+   h1 {
+   color: blue;
+   }
+
+- Selector de clase:
+   .clase {
+   color: grey;
+   }
+
+- Selector de ID:
+   #id {
+   color: red;
+   }
+
+- Selector universal:
+   * {
+   color: green;
+   }
+
+- Selector de atributos:
+   [type="text"] {
+   font-weight: lighter;
+   }
+
+- Selector de descendencia:
+   div p {
+   font-style: bold;
+   }
+
+
+- Selector de clase descendiente:
+   .clase p {
+   color: black;
+   }
+   
+5)
+Una pseudo-clase en CSS es una palabra clave que se agrega a un selector para especificar un estado especial del elemento seleccionado.
+Estos estados especiales suelen estar relacionados con interacciones del usuario o el contexto en el que se encuentra el elemento.
+Las mas utilizadas son:
+   -:link Para seleccionar enlaces que aún no han sido visitados por el usuario.
+   -:visited Se aplica a un enlace que ya ha sido visitado por el usuario.
+   -:hover Se aplica cuando el cursor está sobre el elemento.
+   -:active Se aplica cuando el enlace está siendo activado.
+
+6)
+La herencia en CSS se refiere a la capacidad de los elementos HTML de recibir estilos de sus elementos contenedores o padres.
+Cuando aplicas estilos a un elemento, esos estilos pueden ser heredados por sus elementos hijos a menos que se especifique lo contrario.
+
+7)
+El proceso "cascada" en CSS hace referencia a como se aplican los estilos a los elementos HTML en función del orden en que se definen las reglas.

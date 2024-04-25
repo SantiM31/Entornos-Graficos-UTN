@@ -1,0 +1,33 @@
+a)
+<body>
+<p class="contenido" style="font-weight: normal;">
+Este es un texto ...............</p>
+<table>
+<tr>
+<td>Y esta es una tabla.......</td>
+</tr>
+<tr>
+<td><a href="http://www.google.com.ar">con un
+enlace</a></td>
+</tr>
+</table>
+</body>
+
+
+b)
+<body class="contenido">
+<p> Este es un texto................</p>
+<table>
+<tr>
+<td>Y esta es una tabla.......</td>
+</tr>
+<tr>
+<td><a href="http://www.google.com.ar">con
+un enlace</a></td>
+</tr>
+</table>
+</body>
+
+
+En el caso "a" coloca un estilo directamente en la linea del HTML y para todos los parrafos y enlaces utiliza CSS para darle el estilo.
+Para  el caso "b" utiliza la clase "contenido" para darle un estilo igual a todos los elementos del body.
