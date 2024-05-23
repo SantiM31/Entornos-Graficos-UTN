@@ -1,0 +1,19 @@
+<?php
+$color = 'blanco';
+$flor = 'clavel';
+?>
+
+Indicar las salidas que produce el siguiente código. Justificar.
+<?php
+echo "El $flor $color \n";
+include 'datos.php';
+echo " El $flor $color";
+?> 
+
+
+- La salida será:
+    El
+    El clavel blanco
+
+  Esto sucede porque las variables no estan definidas cuando imprime el primer mensaje, y luego cuando incluye 'datos.php'
+  trae el archivo con las variables ya definidas y logra completar el segundo mensaje.

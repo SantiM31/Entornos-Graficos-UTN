@@ -1,0 +1,5 @@
+a) Son equivalentes. Cambia la manera de incrementar $i pero la salida es la misma.
+
+b) Son equivalentes. Cambia el uso del for, la primer manera es la mas correcta y entendible al leerlo.
+
+c) Son equivalentes. En uno usa if y en otro usa switch pero la salida es la misma.
